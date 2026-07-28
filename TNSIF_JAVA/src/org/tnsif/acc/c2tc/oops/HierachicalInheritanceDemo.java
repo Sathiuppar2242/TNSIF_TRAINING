@@ -27,7 +27,6 @@ public class HierachicalInheritanceDemo {
 	public static void main(String[] args) {
 		Developer dev=new Developer();
 		dev.company();
-		dev.role();
 		Tester test=new Tester();
 		test.company();
 		test.role();
