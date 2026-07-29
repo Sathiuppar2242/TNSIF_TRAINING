@@ -21,7 +21,7 @@ class CardPayment extends Payment
 		System.out.println("Paymentis Done Using Credit/Debit Card ");
 	}
 }
-class WalletPayment extends Payment
+class WaletPayment extends Payment
 {
 	void makePayment()
 	{
@@ -38,7 +38,7 @@ public class PaymentTest {
 		payment = new CardPayment();
 		payment.makePayment();
 		
-		payment = new WalletPayment();
+		payment = new WaletPayment();
 		payment.makePayment();
 		
 
