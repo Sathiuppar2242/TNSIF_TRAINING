@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.methodoverriding;
+package org.tnsif.acc.c2tc.method_overriding_super;
 
 class Person
 {
@@ -26,7 +26,7 @@ class Person
 		System.out.println("Age :"+age);
 	}
 }
-public class Thisdemo {
+public class ThisDemo {
 
 	public static void main(String[] args) {
 		Person person=new Person();

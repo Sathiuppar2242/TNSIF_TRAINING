@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.methodoverriding;
+package org.tnsif.acc.c2tc.method_overriding_super;
 
 class Person5
 {
@@ -12,7 +12,7 @@ class Manager extends Employee
 {
 	
 }
-public class InstanceofDemo1 {
+public class InstanceOfDemo {
 	public static void main(String[] args) {
 		Person5 person=new Person5();
 		Employee emp=new Employee();

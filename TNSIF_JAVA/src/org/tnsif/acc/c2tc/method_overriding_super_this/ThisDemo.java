@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.methodoverriding_Super_this;
+package org.tnsif.acc.c2tc.method_overriding_super_this;
 
 class Person
 {

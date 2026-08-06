@@ -1,4 +1,4 @@
-package org.tnsif.acc.c2tc.methodoverriding;
+package org.tnsif.acc.c2tc.method_overriding_super;
 
 class Payment1 
 {
@@ -21,7 +21,7 @@ class Gpay extends Payment1
 		process();
 	}
 }
-public class SuperwithMethod {
+public class SuperWithMethod {
 	public static void main(String[] args) {
 		Gpay obj=new Gpay();
 		obj.CompleteTransaction();
